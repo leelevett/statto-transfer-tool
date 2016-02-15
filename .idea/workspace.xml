@@ -134,11 +134,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.42857143">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -154,11 +154,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Poller.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Poller.groovy" pinned="false" current-in-tab="false">
         <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/Poller.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71428573">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,7 +188,7 @@
         <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/email.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -188,7 +198,7 @@
         <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/statto-transfer-tool.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -527,11 +537,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/statto-transfer-tool.groovy" />
-        <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/email.yml" />
         <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/Emailer.groovy" />
         <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/Poller.groovy" />
         <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/stattoTransferTool.groovy" />
         <option value="/media/pendrive/development/my-git/statto-transfer-tool/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/email.yml" />
         <option value="/media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/statto-transfer-tool.yml" />
       </list>
     </option>
@@ -560,9 +571,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1551" />
-    <option name="height" value="1204" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -590,6 +601,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -721,7 +733,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -744,6 +755,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunManager" selected="Groovy.statto-transfer-tool.groovy">
     <configuration default="false" name="statto-transfer-tool::media:pendrive:development:my-git:statto-transfer-tool [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -1211,15 +1223,16 @@
       <workItem from="1455279796967" duration="447000" />
       <workItem from="1455285067697" duration="3354000" />
       <workItem from="1455291509896" duration="732000" />
+      <workItem from="1455533380405" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35151000" />
+    <option name="totallyTimeSpent" value="35536000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1551" height="1204" extended-state="6" />
-    <editor active="false" />
+    <frame x="49" y="24" width="1551" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1289,14 +1302,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/statto-transfer-tool.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1637,10 +1642,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/build/install/statto-transfer-tool/bin/statto-transfer-tool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9433198">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/statto-transfer-tool.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/email.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1653,25 +1673,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/build/install/statto-transfer-tool/bin/statto-transfer-tool">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9433198">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/build.gradle">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/resources/statto-transfer-tool.yml">
+    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/Poller.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1684,10 +1697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/src/main/groovy/lee/levett/Poller.groovy">
+    <entry file="file:///media/pendrive/development/my-git/statto-transfer-tool/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.42857143">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>

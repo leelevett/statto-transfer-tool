@@ -1,4 +1,4 @@
-host: "notes-gateway.yellgroup.com"
+host: "email-gateway.xxxxxx.com"
 port: 25
-from: "no-reply@yell.com"
-to: "lee.levett@yell.com"
+from: "no-reply@xxxxxx.com"
+to: "lee.levett@xxxxxx.com"

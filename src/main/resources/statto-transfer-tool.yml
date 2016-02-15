@@ -1,12 +1,12 @@
 ---
-actorName: ucssearch-devmid01
-url: devmid01.yellgroup.com:18081/ucssearch/DoUcsSearch?keywords=plumbers&location=Reading
+actorName: search-hostxxx1
+url: hostxxx1:18081/search/DoSearch?keywords=xxx&location=xxx
 pollEvery: 5
-dataPath: /returndata/servicetimings/service/@duration
+dataPath: //servicetimings/service/@duration
 threshold: 900
 ---
-actorName: ucssearch-devmid02
-url: devmid02.yellgroup.com:18081/ucssearch/DoUcsSearch?keywords=plumbers&location=Reading
+actorName: search-hostxxx2
+url: hostxxx2:18081/search/DoSearch?keywords=xxx&location=xxx
 pollEvery: 5
-dataPath: /returndata/servicetimings/service/@duration
+dataPath: //servicetimings/service/@duration
 threshold: 900
