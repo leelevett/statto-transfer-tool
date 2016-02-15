@@ -1,0 +1,12 @@
+---
+actorName: ucssearch-devmid01
+url: devmid01:18081/ucssearch/DoUcsSearch?keywords=plumbers&location=Reading
+pollEvery: 1
+dataPath: /returndata/servicetimings/service/@duration
+threshold: 800
+---
+actorName: ucssearch-devmid02
+url: devmid02:18081/ucssearch/DoUcsSearch?keywords=plumbers&location=Reading
+pollEvery: 1
+dataPath: /returndata/servicetimings/service/@duration
+threshold: 800

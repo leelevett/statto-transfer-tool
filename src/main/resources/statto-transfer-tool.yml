@@ -1,0 +1,12 @@
+---
+actorName: ucssearch-devmid01
+url: devmid01.yellgroup.com:18081/ucssearch/DoUcsSearch?keywords=plumbers&location=Reading
+pollEvery: 5
+dataPath: /returndata/servicetimings/service/@duration
+threshold: 900
+---
+actorName: ucssearch-devmid02
+url: devmid02.yellgroup.com:18081/ucssearch/DoUcsSearch?keywords=plumbers&location=Reading
+pollEvery: 5
+dataPath: /returndata/servicetimings/service/@duration
+threshold: 900
